@@ -24,8 +24,8 @@
 <summary>Click to expand</summary>
 
 <!-- Replace these with real image URLs -->
-![Popup](https://user-images.githubusercontent.com/.../popup-screenshot.png)
-![Comments Highlighted](https://user-images.githubusercontent.com/.../highlight-example.png)
+![Popup](https://github.com/MoodyElashry/Comment_Reviewer/blob/main/Screenshot%202025-07-05%20180923.png?raw=true)
+
 
 </details>
 
