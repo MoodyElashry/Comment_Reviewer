@@ -114,7 +114,7 @@ To prevent abuse, each session is limited to **10 sentiment analysis batches**. 
 
 ## 👨‍💻 Author
 
-Made with ❤️ by [@MoodyElashry](https://github.com/MoodyElashry)
+Made with ❤️ by [@MoodyElashry](https://github.com/MoodyElashry) And [@Abdallah-Mamoon](https://github.com/Abdallah-Mamoon)
 
 ---
 
