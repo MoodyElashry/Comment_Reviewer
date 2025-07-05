@@ -7,7 +7,7 @@ require('dotenv').config()
 const app = express();
 app.use(express.json());
 
-const COOKIE_SECRET = process.env.COOKIE_SECRET;
+const COOKIE_SECRET = "YOUR SECRET KEY GOES HERE"; //DONT FORGET UR SECRET KEY <-----
 app.use(cookieParser(COOKIE_SECRET));
 app.use((req, res, next) => {
   let sessionId = req.signedCookies.session_id;
