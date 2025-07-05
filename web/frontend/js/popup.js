@@ -70,12 +70,15 @@ document.getElementById("runHighlight").addEventListener("click", async () => {
               if (!el) return;
 
               if (pred.sentiment === "positive") {
-                el.style.backgroundColor = "#c8e6c9";
-              } else if (pred.sentiment === "neutral") {
-                el.style.backgroundColor = "#fff9c4";
-              } else if (pred.sentiment === "negative") {
-                el.style.backgroundColor = "#ffcdd2";
-              }
+               el.style.backgroundColor = "#2e7d32";  // dark green
+                  el.style.color = "#ffffff";           // white text
+}                     else if (pred.sentiment === "neutral") {
+  el.style.backgroundColor = "#616161"; // gray
+  el.style.color = "#ffffff";
+} else if (pred.sentiment === "negative") {
+  el.style.backgroundColor = "#c62828"; // dark red
+  el.style.color = "#ffffff";
+}
             });
           },
           args: [predictions]
