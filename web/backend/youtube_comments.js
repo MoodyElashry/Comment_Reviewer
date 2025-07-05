@@ -47,7 +47,7 @@ app.post('/predict', async (req, res) => {
     }
 
     // 🔒 Rate limit per batch
-    if (req.sessionData.requests >= 10) {
+    if (req.sessionData.requests >= 20) {
       return res.status(429).json({ error: 'Request limit reached (10 maximum).' });
     }
 
